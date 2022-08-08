@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Snap</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#"><img src="src/img/logo.svg" alt="Logo snap"></a>
+    <nav class="nav">
+      <button class="menu-hamburguer" data-menu="hamburguer"></button>
+      <div class="config-menu">
+        <ul class="menu" data-menu="items">
+          <li data-dropdown>
+            <a href="#" class="arrow">Features</a>
+            <ul class="dropdown-menu icons">
+              <li><a href="#" class="to-do">Todo List</a></li>
+              <li><a href="#" class="calendar">Calendar</a></li>
+              <li><a href="#" class="reminders">Reminders</a></li>
+              <li><a href="#" class="planning">Planning</a></li>
+            </ul>
+          </li>
+          <li data-dropdown>
+            <a href="#" class="arrow">Company</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </ul>
+        <div class="account">
+          <a href="#">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="section-info">
+      <picture>
+        <source srcset="src/img/image-hero-desktop.png" media="(min-width: 749px)">
+        <img src="src/img/image-hero-mobile.png" alt="Imagem de uma pessoa segurando um laptop">
+      </picture>
+
+      <div class="description">
+        <h1 class="titulo">Make remote work</h1>
+        <p class="text">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <a class="btn-learn-more">Learn more</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="partners">
+        <li>
+          <img src="src/img/client-databiz.svg" alt="Parceira databiz">
+        </li>
+        <li>
+          <img src="src/img/client-audiophile.svg" alt="Parceira audiophile">
+        </li>
+        <li>
+          <img src="src/img/client-meet.svg" alt="Parceira meet">
+        </li>
+        <li>
+          <img src="src/img/client-maker.svg" alt="Parceira maker">
+        </li>
+      </ul>
+    </footer>
+  </main>
+
+</body>
+
+</html>
