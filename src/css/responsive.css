@@ -1,0 +1,68 @@
+@media (min-width: 749px) {
+  /* Header */
+  .header {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 15px 40px;
+  }
+
+  .header .nav {
+    width: 100%;
+  }
+
+  .header .nav .menu-hamburguer {
+    display: none;
+  }
+
+  .header .nav .background {
+    display: none !important;
+  }
+
+  .header .nav .nav-aside {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: flex !important;
+    justify-content: space-between;
+  }
+
+  .header .nav .menu {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header .menu li[data-dropdown] {
+    position: relative;
+  }
+
+  .header .menu li[data-dropdown]:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background: var(--color-almost-white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    min-width: 130px;
+  }
+
+  .header .nav .menu .features:hover .dropdown-menu {
+    right: 0;
+  }
+
+  .header .nav .menu .company:hover .dropdown-menu {
+    left: 0;
+  }
+
+  .header .nav .account {
+    margin-top: 0;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header .account .register {
+    margin-top: 0;
+  }
+}
