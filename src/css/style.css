@@ -21,15 +21,31 @@ p {
 
 /* Header */
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 80px;
   padding: 20px 15px;
 }
 
-.header .nav {
-  display: flex;
+.header .nav .nav-aside {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 230px;
+  padding: 80px 30px;
+  height: 100vh;
+  background: var(--color-almost-white);
+}
+
+.header .nav.active .nav-aside {
+  display: block;
+}
+
+.header .nav.active .background {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header .nav .menu-hamburguer {
@@ -38,6 +54,9 @@ p {
   width: 32px;
   height: 18px;
   border: none;
+  position: fixed;
+  top: 22px;
+  right: 15px;
   z-index: 999;
 }
 
@@ -45,32 +64,6 @@ p {
   background: url(../img/icon-close-menu.svg) no-repeat;
   width: 26px;
   height: 26px;
-}
-
-.header .nav .config-menu {
-  display: none;
-  background-color: var(--color-almost-white);
-  width: 230px;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 80px 30px;
-}
-
-.header .nav.active .config-menu {
-  display: initial;
-}
-
-.header .nav .config-menu::before {
-  content: '';
-  background-color: rgba(0, 0, 0, .6);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
 }
 
 .header .nav .menu {
@@ -88,7 +81,6 @@ p {
 
 .header .nav a.arrow::after {
   content: '';
-  display: inline-block;
   width: 10px;
   height: 6px;
   background: url('../img/icon-arrow-down.svg') no-repeat center;
@@ -107,9 +99,12 @@ p {
   display: block;
 }
 
-.header .nav .menu .dropdown-menu a {
+.header .menu li[data-dropdown] .dropdown-menu.icons a {
   display: flex;
   gap: 10px;
+}
+
+.header .menu li[data-dropdown] .dropdown-menu a {
   margin-top: 5px;
 }
 
@@ -146,8 +141,10 @@ p {
   padding: 10px 0;
 }
 
-.header .account {
+.header .nav .account {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header .account a {

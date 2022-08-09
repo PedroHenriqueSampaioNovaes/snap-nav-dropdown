@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
   <title>Snap</title>
 </head>
 
@@ -16,11 +17,14 @@
 
   <header class="header">
     <a href="#"><img src="src/img/logo.svg" alt="Logo snap"></a>
+    
     <nav class="nav">
       <button class="menu-hamburguer" data-menu="hamburguer"></button>
-      <div class="config-menu">
+      <div class="background"></div>
+
+      <div class="nav-aside">
         <ul class="menu" data-menu="items">
-          <li data-dropdown>
+          <li class="features" data-dropdown>
             <a href="#" class="arrow">Features</a>
             <ul class="dropdown-menu icons">
               <li><a href="#" class="to-do">Todo List</a></li>
@@ -29,7 +33,7 @@
               <li><a href="#" class="planning">Planning</a></li>
             </ul>
           </li>
-          <li data-dropdown>
+          <li class="company" data-dropdown>
             <a href="#" class="arrow">Company</a>
             <ul class="dropdown-menu">
               <li><a href="#">History</a></li>
