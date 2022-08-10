@@ -1,4 +1,4 @@
-@media (min-width: 749px) {
+@media (min-width: 900px) {
   /* Header */
   .header {
     max-width: 1440px;
@@ -38,6 +38,15 @@
     position: relative;
   }
 
+  .header .menu li:hover a,
+  .header .account a:first-child:hover {
+    color: var(--color-almost-black);
+  }
+
+  .header .nav li[data-dropdown]:hover a.arrow::after {
+    transform: rotate(180deg);
+  }
+
   .header .menu li[data-dropdown]:hover .dropdown-menu {
     display: block;
     position: absolute;
@@ -64,5 +73,63 @@
 
   .header .account .register {
     margin-top: 0;
+    padding: 10px 20px;
+  }
+
+  .header .account .register:hover {
+    color: var(--color-almost-black);
+    border-color: var(--color-almost-black);
+  }
+
+  /* Section Info */
+  .section-info {
+    max-width: 1125px;
+    max-height: 600px;
+    margin: 60px auto 120px;
+    padding: 0 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .section-info picture {
+    max-width: 425px;
+  }
+
+  .section-info .img-hero-mobile {
+    height: 100%;
+    max-height: initial;
+  }
+
+  .section-info .info {
+    max-width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-info .description {
+    text-align: left;
+    padding: 0;
+  }
+
+  .description .titulo {
+    font-size: 70px;
+    margin-top: 110px;
+  }
+
+  .description .btn-learn-more {
+    margin: 40px 0 0;
+    transition: .2s ease-in-out;
+  }
+
+  .description .btn-learn-more:hover {
+    background: #fff;
+    color: var(--color-almost-black);
+  }
+
+  /* Footer */
+  .footer {
+    padding: 0;
   }
 }

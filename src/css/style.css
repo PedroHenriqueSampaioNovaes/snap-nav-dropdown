@@ -85,6 +85,7 @@ p {
   width: 10px;
   height: 6px;
   background: url('../img/icon-arrow-down.svg') no-repeat center;
+  transition: .2s ease-in-out;
 }
 
 .header .nav li[data-dropdown].active a.arrow::after {
@@ -140,6 +141,7 @@ p {
   display: block;
   color: var(--color-medium-gray);
   padding: 10px 0;
+  transition: .2s ease-in-out;
 }
 
 .header .nav .account {
@@ -154,7 +156,7 @@ p {
 
 .header .account .register {
   background-color: var(--color-almost-white);
-  border: 1px solid var(--color-almost-black);
+  border: 1px solid var(--color-medium-gray);
   border-radius: 15px;
   margin-top: 5px;
 }
@@ -165,8 +167,14 @@ p {
   flex-direction: column;
 }
 
+.section-info .img-hero-mobile {
+  width: 100%;
+  max-height: 470px;
+  object-fit: cover;
+}
+
 .section-info .description {
-  padding: 40px 15px;
+  padding: 50px 15px;
   text-align: center;
 }
 
@@ -178,7 +186,7 @@ p {
 .description .text {
   color: var(--color-medium-gray);
   font-size: 18px;
-  margin: 20px 0;
+  margin: 20px 0 25px;
   line-height: 30px;
 }
 
@@ -187,10 +195,11 @@ p {
   width: fit-content;
   background: var(--color-almost-black);
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 15px 30px;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  border: 1px solid var(--color-almost-black);
   border-radius: 15px;
   cursor: pointer;
 }
@@ -203,5 +212,5 @@ p {
 .footer .partners {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
 }
