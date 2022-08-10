@@ -38,7 +38,7 @@
     position: relative;
   }
 
-  .header .menu li:hover a,
+  .header .menu li:hover > a,
   .header .account a:first-child:hover {
     color: var(--color-almost-black);
   }
