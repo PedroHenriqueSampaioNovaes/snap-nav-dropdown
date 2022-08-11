@@ -22,8 +22,9 @@ Os usuários devem ser capazes de:
 - Ver os estados de foco para todos os elementos interativos na página
 
 ### Screenshot
+<div align="center">
 ![introducao-desktop](https://user-images.githubusercontent.com/92189897/184259061-8675c792-6fd5-4d8e-818a-013e1536e7c8.png)
 ![introducao-mobile](https://user-images.githubusercontent.com/92189897/184259065-b04cf26b-4ab7-4230-a290-5faaa06e3cb2.png)
 ![dropdown-ativo](https://user-images.githubusercontent.com/92189897/184259066-d2510936-a154-45e9-a5be-abeba8550a0f.png)
 ![sub-dropdown-ativo](https://user-images.githubusercontent.com/92189897/184259069-761db332-8c9b-4dad-adaa-5620ec210054.png)
-
+</div>
