@@ -8,13 +8,27 @@ export default function menuMobile() {
   const events = ['click', 'touchstart'];
   const activeClass = 'active';
 
+  const setAccessiblity = () => {
+    const active = nav.classList.contains(activeClass);
+
+    button.setAttribute('aria-expanded', active);
+    if (active) {
+      button.setAttribute('aria-label', 'Close Menu');
+    } else {
+      button.setAttribute('aria-label', 'Open Menu');
+    }
+  }
+
   const openMenu = (event) => {
     if (event.type === 'touchstart') event.preventDefault();
 
     nav.classList.add(activeClass);
     outsideClick(floatMenu, events, () => {
       nav.classList.remove(activeClass);
+      setAccessiblity();
     });
+
+    setAccessiblity();
   };
 
   events.forEach((userEvent) => {
