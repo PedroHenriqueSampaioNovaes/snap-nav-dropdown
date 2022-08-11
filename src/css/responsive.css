@@ -57,6 +57,10 @@
     min-width: 130px;
   }
 
+  .header .menu li[data-dropdown] .dropdown-menu {
+    display: none;
+  }
+
   .header .nav .menu .features:hover .dropdown-menu {
     right: 0;
   }
