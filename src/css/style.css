@@ -37,6 +37,7 @@ p {
   padding: 80px 30px;
   height: 100vh;
   background: var(--color-almost-white);
+  animation: nav-fade-left 0.5s ease-in-out;
 }
 
 .header .nav.active .nav-aside {
@@ -89,7 +90,7 @@ p {
   width: 10px;
   height: 6px;
   background: url('../img/icon-arrow-down.svg') no-repeat center;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .header .nav li[data-dropdown].active a.arrow::after {
@@ -102,10 +103,12 @@ p {
 
 .header .menu li[data-dropdown] .dropdown-menu {
   display: none;
+  overflow: hidden;
 }
 
 .header .nav li[data-dropdown].active .dropdown-menu {
   display: block;
+  animation: dropdown-fade-down 0.5s ease-in-out;
 }
 
 .header .menu li[data-dropdown] .dropdown-menu.icons a {
@@ -132,23 +135,24 @@ p {
 }
 
 .header .dropdown-menu a.calendar::before {
-  background: url('../img/icon-calendar.svg') no-repeat 
+  background: url('../img/icon-calendar.svg') no-repeat;
 }
 
 .header .dropdown-menu a.reminders::before {
-  background: url('../img/icon-reminders.svg') no-repeat 
+  background: url('../img/icon-reminders.svg') no-repeat;
 }
 
 .header .dropdown-menu a.planning::before {
-  background: url('../img/icon-planning.svg') no-repeat 
+  background: url('../img/icon-planning.svg') no-repeat;
 }
 
 /* Login & Register */
-.header .menu a, .header .account a {
+.header .menu a,
+.header .account a {
   display: block;
   color: var(--color-medium-gray);
   padding: 10px 0;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .header .nav .account {

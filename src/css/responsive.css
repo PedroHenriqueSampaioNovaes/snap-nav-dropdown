@@ -44,7 +44,7 @@
   }
 
   .header .nav li[data-dropdown]:hover a.arrow::after {
-    transform: rotate(180deg);
+    background: url('../img/icon-arrow-up.svg') no-repeat center;
   }
 
   .header .menu li[data-dropdown]:hover .dropdown-menu {
@@ -124,7 +124,7 @@
 
   .description .btn-learn-more {
     margin: 40px 0 0;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 
   .description .btn-learn-more:hover {
