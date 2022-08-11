@@ -100,6 +100,10 @@ p {
   padding-left: 20px;
 }
 
+.header .menu li[data-dropdown] .dropdown-menu {
+  display: none;
+}
+
 .header .nav li[data-dropdown].active .dropdown-menu {
   display: block;
 }

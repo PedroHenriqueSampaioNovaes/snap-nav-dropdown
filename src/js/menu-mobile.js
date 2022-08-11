@@ -1,6 +1,6 @@
 import outsideClick from './outsideclick.js';
 
-export default function MenuMobile() {
+export default function menuMobile() {
   const nav = document.querySelector('.nav');
   const button = document.querySelector('[data-menu="hamburguer"]');
   const floatMenu = document.querySelector('[data-float-menu]');

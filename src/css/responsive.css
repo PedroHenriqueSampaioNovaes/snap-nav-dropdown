@@ -118,7 +118,7 @@
   }
 
   .description .titulo {
-    font-size: 70px;
+    font-size: calc(58px + 0.9vw);
     margin-top: 110px;
   }
 
