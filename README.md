@@ -42,3 +42,12 @@ Os usuários devem ser capazes de:
 - Solução URL FrontEndMentor: [clique aqui](https://www.frontendmentor.io/profile/PedroHenriqueSampaioNovaes)
 - Site online URL: [clique aqui](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/)
 
+### Construido com
+
+- HTML5
+- CSS3
+- Flexbox
+- Mobile First
+- Construir a versão para mobile primeiro
+- JavaScript
+
