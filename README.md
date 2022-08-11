@@ -39,6 +39,6 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução URL FrontEndMentor: [clique aqui](https://your-solution-url.com](https://www.frontendmentor.io/profile/PedroHenriqueSampaioNovaes))
-- Site online URL: [clique aqui](https://your-live-site-url.com](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/)](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/))
+- Solução URL FrontEndMentor: [clique aqui](https://www.frontendmentor.io/profile/PedroHenriqueSampaioNovaes)
+- Site online URL: [clique aqui](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/)
 
