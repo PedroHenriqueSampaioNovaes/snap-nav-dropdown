@@ -15,6 +15,7 @@
 - [Acknowledgments](#acknowledgments)
 
 ### The challenge
+
 Os usuários devem ser capazes de:
 
 - Visualizar os menus suspensos relevantes no desktop e no celular ao interagir com os links de navegação
@@ -22,6 +23,7 @@ Os usuários devem ser capazes de:
 - Ver os estados de foco para todos os elementos interativos na página
 
 ### Screenshot
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/92189897/184259061-8675c792-6fd5-4d8e-818a-013e1536e7c8.png" />
 </div>
@@ -34,4 +36,9 @@ Os usuários devem ser capazes de:
 <div align="center">
   <img src="https://user-images.githubusercontent.com/92189897/184259069-761db332-8c9b-4dad-adaa-5620ec210054.png" />
 </div>
+
+### Links
+
+- Solution URL: [Link do projeto]([https://your-solution-url.com](https://www.frontendmentor.io/profile/PedroHenriqueSampaioNovaes))
+- Live Site URL: [Site online]([https://your-live-site-url.com](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/))
 
