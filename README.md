@@ -3,18 +3,17 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Desafio](#desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Meu processo](#meu-processo)
+  - [Construido com](#construido-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Observações](#observações)
 
-### The challenge
+## Overview
+
+### Desafio
 
 Os usuários devem ser capazes de:
 
@@ -42,6 +41,8 @@ Os usuários devem ser capazes de:
 - Solução URL FrontEndMentor: [clique aqui](https://www.frontendmentor.io/profile/PedroHenriqueSampaioNovaes)
 - Site online URL: [clique aqui](https://pedrohenriquesampaionovaes.github.io/snap-nav-dropdown/)
 
+## Meu processo
+
 ### Construido com
 
 - HTML5
@@ -50,4 +51,46 @@ Os usuários devem ser capazes de:
 - Mobile First
 - Construir a versão para mobile primeiro
 - JavaScript
+
+### O que eu aprendi
+
+Pela primeira vez fiz um menu dropdown que ocupa todo o tamanho da tela verticalmente. Foi um desafio interessante e me surpreendi por ter conseguido alcançar um resultado tão próximo ao design da imagem, além de ter gostado do código em html que montei. Segue abaixo um pequeno trecho do código:
+
+```
+<ul class="menu" data-menu="items" role="menu">
+  <li class="features" data-dropdown>
+    <a href="#" class="arrow" data-link-dropdown>Features</a>
+    <ul class="dropdown-menu icons">
+      <li><a href="#" class="to-do">To do List</a></li>
+      <li><a href="#" class="calendar">Calendar</a></li>
+      <li><a href="#" class="reminders">Reminders</a></li>
+      <li><a href="#" class="planning">Planning</a></li>
+    </ul>
+  </li>
+  <li class="company" data-dropdown>
+    <a href="#" class="arrow" data-link-dropdown>Company</a>
+    <ul class="dropdown-menu">
+      <li><a href="#">History</a></li>
+      <li><a href="#">Our Team</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Careers</a>
+  </li>
+  <li>
+    <a href="#">About</a>
+  </li>
+</ul>
+<div class="account">
+  <a href="#">Login</a>
+  <a href="#" class="register">Register</a>
+</div>
+```
+
+### Observações
+
+Desenvolvi este site apenas me baseando nas imagens adquiridas no [Frontend Mentor](https://www.frontendmentor.io/challenges), na tentativa de criar o site o mais próximo possível das imagens sem ter acesso as suas configurações.
+Ainda não me sinto confortável em relação a estruturação criada no css para alinhar a imagem e o conteúdo "Make remote work" para dispositivos de largura maior de 899px. Além disso, não acho que é uma boa maneira deixar a imagem ser cortada quando está sendo visualizada por dispositivos menores que 900px, acredito que tenha uma maneira melhor de posicionar a imagem sem que ocorra esse corte. 
+Esses são os detalhes que reparei durante o desenvolvimento que ainda preciso aprimorar.
 
