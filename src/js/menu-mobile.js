@@ -8,7 +8,7 @@ export default function menuMobile() {
   const events = ['click', 'touchstart'];
   const activeClass = 'active';
 
-  const setAccessiblity = () => {
+  const setAccessibility = () => {
     const active = nav.classList.contains(activeClass);
 
     button.setAttribute('aria-expanded', active);
@@ -25,10 +25,10 @@ export default function menuMobile() {
     nav.classList.add(activeClass);
     outsideClick(floatMenu, events, () => {
       nav.classList.remove(activeClass);
-      setAccessiblity();
+      setAccessibility();
     });
 
-    setAccessiblity();
+    setAccessibility();
   };
 
   events.forEach((userEvent) => {

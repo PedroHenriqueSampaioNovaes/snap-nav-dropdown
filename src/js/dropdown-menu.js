@@ -8,7 +8,7 @@ export default function dropdownMenu() {
   const toggleDropdown = (event) => {
     if (event.type === 'touchstart') event.preventDefault();
     const linkDropdown = event.currentTarget.querySelector(
-      '[ data-link-dropdown]',
+      '[data-link-dropdown]',
     );
 
     if (!event.currentTarget.classList.contains(classActive)) {
