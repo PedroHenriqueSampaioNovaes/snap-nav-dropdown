@@ -49,7 +49,6 @@ Os usuários devem ser capazes de:
 - CSS3
 - Flexbox
 - Mobile First
-- Construir a versão para mobile primeiro
 - JavaScript
 
 ### O que eu aprendi
