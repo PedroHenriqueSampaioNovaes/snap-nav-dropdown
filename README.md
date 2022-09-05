@@ -1,6 +1,6 @@
 # SNAP Navegação Dropdown
 
-## Table of contents
+## Acesso rápido aos tópicos
 
 - [Overview](#overview)
   - [Desafio](#desafio)
