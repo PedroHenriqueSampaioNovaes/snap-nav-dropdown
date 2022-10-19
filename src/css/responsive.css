@@ -12,6 +12,10 @@
     width: 100%;
   }
 
+  .header .nav.active::before {
+    display: none;
+  }
+
   .header .nav .menu-hamburguer {
     display: none;
   }
@@ -24,6 +28,10 @@
     display: flex !important;
     justify-content: space-between;
     transform: initial;
+  }
+
+  .header .nav.active .nav-aside {
+    background: none;
   }
 
   .header .nav .menu {

@@ -28,19 +28,6 @@ p {
   padding: 20px 15px;
 }
 
-.header .nav .nav-aside {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 230px;
-  padding: 80px 30px;
-  height: 100vh;
-  background: var(--color-almost-white);
-  transform: translateX(230px);
-  transition: .3s ease;
-}
-
 .header .nav.active::before {
   content: '';
   display: block;
@@ -52,7 +39,20 @@ p {
   left: 0;
 }
 
+.header .nav .nav-aside {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 230px;
+  padding: 80px 30px;
+  height: 100vh;
+  transform: translateX(230px);
+  transition: .3s ease;
+}
+
 .header .nav.active .nav-aside {
+  background: var(--color-almost-white);
   transform: initial;
 }
 

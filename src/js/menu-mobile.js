@@ -17,7 +17,7 @@ export default function menuMobile() {
     } else {
       button.setAttribute('aria-label', 'Open Menu');
     }
-  }
+  };
 
   const openMenu = (event) => {
     if (event.type === 'touchstart') event.preventDefault();
