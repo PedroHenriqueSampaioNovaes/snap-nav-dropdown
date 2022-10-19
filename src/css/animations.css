@@ -1,12 +1,3 @@
-@keyframes nav-fade-left {
-  from {
-    transform: translate3d(230px, 0, 0);
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 @keyframes dropdown-fade-down {
   from {
     max-height: 0;

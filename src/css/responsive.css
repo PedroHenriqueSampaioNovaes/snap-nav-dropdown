@@ -16,10 +16,6 @@
     display: none;
   }
 
-  .header .nav .background {
-    display: none !important;
-  }
-
   .header .nav .nav-aside {
     position: static;
     width: auto;
@@ -27,6 +23,7 @@
     padding: 0;
     display: flex !important;
     justify-content: space-between;
+    transform: initial;
   }
 
   .header .nav .menu {
